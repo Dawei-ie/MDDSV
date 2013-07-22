@@ -1,0 +1,17 @@
+GeneratorModel for yakindu::java {
+
+	statechart GoStop {
+
+		feature Outlet {
+			targetProject = "intersection"
+			targetFolder = "src-gen"
+		}
+
+		feature GeneralFeatures {
+		//			EventBasedStatemachine = true
+			InterfaceObserverSupport = false
+			TimerService = true
+			RuntimeService = true
+		}
+	}
+}
