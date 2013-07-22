@@ -1,0 +1,16 @@
+<routes>
+	<vType id="typeWE" accel="0.8" decel="4.5" sigma="0.5" length="5"
+		minGap="2.5" maxSpeed="16.67" guiShape="passenger" />
+	<vType id="typeNS" accel="0.8" decel="4.5" sigma="0.5" length="17"
+		minGap="3" maxSpeed="25" guiShape="bus" />
+
+	<route id="right_left" edges="51o 1i 2o1 2o2 52i" />
+	<route id="left_right" edges="52o 2i1 2i2 1o 51i" />
+	<route id="up_down" edges="54o 4i 3o 53i" />
+	<route id="down_up" edges="53o 3i 4o 54i" />
+	<route id="right_up" edges="52o 2i1 2i2 4o 54i" />
+	<route id="left_down" edges="51o 1i 3o 53i" />
+	<route id="up_left" edges="54o 4i 1o 51i" />
+	<route id="down_right" edges="53o 3i 2o1 2o2 52i" />
+	<vehicle id="0" type="typeWE" route="left_right" depart="8" />
+</routes>

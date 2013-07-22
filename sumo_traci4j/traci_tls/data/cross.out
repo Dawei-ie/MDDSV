@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<!-- generated on 12/06/2013 21:24:28 by SUMO gui Version 0.15.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/sumo-gui.exeConfiguration.xsd">
+
+    <input>
+        <net-file value="traci_tls/data/cross.net.xml"/>
+        <route-files value="traci_tls/data/cross.rou.xml"/>
+        <additional-files value="traci_tls/data/cross.det.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="46327"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="traci_tls/data/gui-settings.cfg"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector>
+   <interval begin="0.00" end="30.00" id="0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="60.00" id="0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="60.00" end="90.00" id="0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="90.00" end="120.00" id="0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="120.00" end="150.00" id="0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="150.00" end="165.50" id="0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+</detector>

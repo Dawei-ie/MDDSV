@@ -1,0 +1,19 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/routes_file.xsd">
+   <vType id="SUMO_DEFAULT_TYPE" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2" maxSpeed="100"/>
+<!--    <route id="always_right" edges="1i 4o 4i 2o 2i 3o 3i 1o 1i"/>
+   <route id="always_left" edges="3i 2o 2i 4o 4i 1o 1i 3o 3i"/>
+   <route id="horizontal" edges="2i 1o 1i 2o 2i"/>
+   <route id="vertical" edges="3i 4o 4i 3o 3i"/> -->
+   <route id="WE" edges="1i 2o"></route>
+   <route id="WN" edges="1i 4o"/>
+   <route id="WS" edges="1i 3o"/>
+   <route id="EW" edges="2i 1o"/>
+   <route id="EN" edges="2i 4o"/>
+   <route id="ES" edges="2i 3o"/>
+   <route id="NS" edges="4i 3o"/>
+   <route id="NW" edges="4i 1o"/>
+   <route id="NE" edges="4i 2o"/>
+   <route id="SN" edges="3i 4o"/>
+   <route id="SW" edges="3i 1o"/>
+   <route id="SE" edges="3i 2o"/>
+</routes>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/connections_file.xsd">
+	<connection from="1i" to="2o1"/>
+	<connection from="2o1" to="2o2"/>
+	<connection from="1i" to="3o"/>
+	<connection from="2i1" to="2i2"/>
+	<connection from="2i2" to="1o"/>
+	<connection from="2i2" to="4o"/>
+	<connection from="3i" to="2o1"/>
+	<connection from="2o1" to="2o2"/>
+	<connection from="3i" to="4o"/>
+	<connection from="4i" to="1o"/>
+	<connection from="4i" to="3o"/>
+</connections>
